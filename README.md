@@ -1,6 +1,3 @@
-## Hi there 👋
-
-<!--
 # 🌟 Ido Hasoy - Portfolio
 
 Welcome to my portfolio! I'm an **Industrial Engineering and Management student** specializing in **data analytics, product development, and process optimization**.
