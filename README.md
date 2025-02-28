@@ -7,6 +7,4 @@ Welcome to my portfolio! I'm an **Industrial Engineering and Management student*
 - 💡 **Skills:** Python, SQL, Power BI, Java, Machine Learning  
 - 🎯 **Seeking:** Roles in **data analysis** or **product management**  
 
-## 📂 Projects info
-
 -->
