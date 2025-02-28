@@ -156,9 +156,8 @@ title: "Welcome to My Portfolio"
     </div>
     
     <div id="contact" class="section">
-        <h2>📞 Contact</h2>
-        <p>Email: ido.hasoy@example.com</p>
-        <p>Phone: +123 456 7890</p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/idohasoy" target="_blank">linkedin.com/in/idohasoy</a></p>
+        <h2>📞 Contact Me</h2>
+        <p>💎 <strong>Email:</strong> <a href="mailto:ido.hasoy10@gmail.com">ido.hasoy10@gmail.com</a></p>
+        <p>🌟 <strong>LinkedIn:</strong> <a href="https://linkedin.com/in/ido-hasoy" target="_blank">linkedin.com/in/ido-hasoy</a></p>
     </div>
 </div>
