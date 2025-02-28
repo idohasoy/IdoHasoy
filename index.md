@@ -137,17 +137,16 @@ title: "Welcome to My Portfolio"
             <a class="btn" href="decision_tree_project.zip" download>Download Project</a>
         </div>
         <div class="project">
-            <h3>Word Transformation Path Finder</h3>
-            <p>A Python-based algorithmic project implementing multiple search strategies (A*, Hill Climbing, Simulated Annealing, Local Beam Search, Genetic Algorithm) to transform one word into another using dictionary-based valid words.</p>
-            <a class="btn" href="word_transformation_project.zip" download>Download Project</a>
+            <h3>Word Transformation Search Algorithms</h3>
+            <p>A project implementing multiple search algorithms (A*, Hill Climbing, Simulated Annealing, Local Beam Search, Genetic Algorithm) to find optimal word transformations.</p>
+            <a class="btn" href="project2.zip" download>Download Project</a>
         </div>
-    </div>
-    
-    <div class="section">
-        <h2>🔗 Connect</h2>
-        <p>Let's connect and collaborate!</p>
-        <a class="btn" href="https://linkedin.com/in/ido-hasoy" target="_blank">LinkedIn</a>
-        <a class="btn" href="https://github.com/IdoHasoy" target="_blank">GitHub</a>
-        <a class="btn" href="mailto:ido.hasoy10@gmail.com">Email Me</a>
+        <div class="project">
+            <h3>Company Performance & Operations Report</h3>
+            <p>A Power BI-based analytics project with SQL data processing. It provides insights into company performance and operational efficiency, using dynamic dashboards and KPIs to support decision-making.</p>
+            <a class="btn" href="Part3.sql" download>Download SQL Script</a>
+            <a class="btn" href="Part3-Company-Performance.pbix" download>Download Company Performance Report (Power BI)</a>
+            <a class="btn" href="Part3-Operation-Report.pbix" download>Download Operations Report (Power BI)</a>
+        </div>
     </div>
 </div>
