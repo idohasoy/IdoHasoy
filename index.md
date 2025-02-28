@@ -131,22 +131,26 @@ title: "Welcome to My Portfolio"
     <div class="section">
         <h2>📂 Projects</h2>
         <p>Explore my key projects involving data analytics, machine learning, and software development.</p>
+        
+        <h3>Intelligent Systems</h3>
         <div class="project">
             <h3>Decision Tree Classifier with Data Preprocessing</h3>
-            <p>A Python-based decision tree classifier that includes custom data preprocessing, entropy-based feature selection, and chi-squared pruning. The project is designed to analyze customer behavior for predicting term deposit subscriptions.</p>
+            <p>A Python-based decision tree classifier that includes custom data preprocessing, entropy-based feature selection, and chi-squared pruning.</p>
             <a class="btn" href="decision_tree_project.zip" download>Download Project</a>
         </div>
         <div class="project">
             <h3>Word Transformation Search Algorithms</h3>
-            <p>A project implementing multiple search algorithms (A*, Hill Climbing, Simulated Annealing, Local Beam Search, Genetic Algorithm) to find optimal word transformations.</p>
+            <p>A project implementing multiple search algorithms to find optimal word transformations.</p>
             <a class="btn" href="project2.zip" download>Download Project</a>
         </div>
+        
+        <h3>SQL and Power BI</h3>
         <div class="project">
             <h3>Company Performance & Operations Report</h3>
-            <p>A Power BI-based analytics project with SQL data processing. It provides insights into company performance and operational efficiency, using dynamic dashboards and KPIs to support decision-making.</p>
+            <p>A Power BI-based analytics project with SQL data processing.</p>
             <a class="btn" href="Part3.sql" download>Download SQL Script</a>
-            <a class="btn" href="Part3-Company-Performance.pbix" download>Download Company Performance Report (Power BI)</a>
-            <a class="btn" href="Part3-Operation-Report.pbix" download>Download Operations Report (Power BI)</a>
+            <a class="btn" href="Part3-Company-Performance.pbix" download>Download Company Performance Report</a>
+            <a class="btn" href="Part3-Operation-Report.pbix" download>Download Operations Report</a>
         </div>
     </div>
 </div>
