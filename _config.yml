@@ -2,6 +2,7 @@
 description: "Industrial Engineering | Data Analytics | Product Development"
 author: "Ido Hasoy"
 baseurl: "/IdoHasoy"  
+show_title: false
 url: "https://idohasoy.github.io"
 
 # Use Minimal Mistakes Theme
