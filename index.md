@@ -33,7 +33,7 @@ title: "Welcome to My Portfolio"
     .btn {
         display: inline-block;
         padding: 12px 25px;
-        color: #ffffff; /* Ensuring button text is white */
+        color: #ffffff;
         background-color: #38bdf8;
         text-decoration: none;
         border-radius: 6px;
@@ -62,6 +62,7 @@ title: "Welcome to My Portfolio"
         margin: 0 20px;
         font-size: 1.2em;
         font-weight: bold;
+        cursor: pointer;
     }
     .hero {
         padding: 100px 20px;
@@ -86,6 +87,7 @@ title: "Welcome to My Portfolio"
         padding: 10px 0;
         font-size: 1.1em;
         transition: color 0.3s ease-in-out;
+        cursor: pointer;
     }
     .sidebar a:hover {
         color: #e0e0e0;
@@ -112,13 +114,13 @@ title: "Welcome to My Portfolio"
 </style>
 
 <div class="sidebar">
-    <a href="index.html">Home</a>
-    <a href="projects.html">Projects</a>
-    <a href="contact.html">Contact</a>
+    <a href="#home">Home</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
 </div>
 
 <div class="content">
-    <div class="hero">
+    <div id="home" class="hero">
         <h1>Welcome to My Portfolio</h1>
         <p>Hi, I'm <strong>Ido Hasoy</strong>, an Industrial Engineering and Management student specializing in <strong>Data Analytics and Product Development</strong>. Passionate about optimizing processes, developing data-driven solutions, and leveraging intelligent systems for business improvement.</p>
     </div>
@@ -128,7 +130,7 @@ title: "Welcome to My Portfolio"
         <p>Currently pursuing a degree in Industrial Engineering and Management at Ben-Gurion University, I have a strong foundation in data analytics, machine learning, and business strategy. With hands-on experience in SQL, Power BI, and Python, I enjoy solving complex problems and creating impactful solutions. My background as a combat officer has honed my leadership and decision-making skills, enabling me to thrive in high-pressure environments.</p>
     </div>
     
-    <div class="section">
+    <div id="projects" class="section">
         <h2>📂 Projects</h2>
         
         <h3>Intelligent Systems</h3>
@@ -151,5 +153,12 @@ title: "Welcome to My Portfolio"
             <a class="btn" href="Part3-Company-Performance.pbix" download>Download Company Performance Report</a>
             <a class="btn" href="Part3-Operation-Report.pbix" download>Download Operations Report</a>
         </div>
+    </div>
+    
+    <div id="contact" class="section">
+        <h2>📞 Contact</h2>
+        <p>Email: ido.hasoy@example.com</p>
+        <p>Phone: +123 456 7890</p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/idohasoy" target="_blank">linkedin.com/in/idohasoy</a></p>
     </div>
 </div>
