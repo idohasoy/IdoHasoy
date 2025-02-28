@@ -1,32 +1,30 @@
-# Site settings
+# Site Settings
 title: "Ido Hasoy - Portfolio"
-description: "Industrial Engineering and Management student | Data Analytics | Product Development | Process Optimization"
+description: "Industrial Engineering and Management | Data Analytics | Product Development"
 author: "Ido Hasoy"
-baseurl: "/IdoHasoy"
-url: "https://idohasoy.github.io/IdoHasoy/"
+baseurl: "/IdoHasoy"  # Matches your repo name
+url: "https://idohasoy.github.io"
 
+# Use a Professional Theme
+remote_theme: pages-themes/cayman@v0.2.0  # Replace with another theme if needed
 
-# Theme
-remote_theme: jekyll/minima  
-
-# Build settings
-markdown: kramdown
+# Plugins
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-# Navigation links (optional)
+# Navigation Menu
 header_pages:
   - index.md
   - projects.md
   - contact.md
 
-# Social links (optional)
+# Social Links
 social_links:
   linkedin: "https://linkedin.com/in/ido-hasoy"
   github: "https://github.com/IdoHasoy"
   email: "ido.hasoy10@gmail.com"
 
-# Exclude files from Jekyll processing
+# Exclude Unnecessary Files
 exclude:
   - README.md
