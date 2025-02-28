@@ -85,6 +85,10 @@ title: "Welcome to My Portfolio"
         text-decoration: none;
         padding: 10px 0;
         font-size: 1.1em;
+        transition: color 0.3s ease-in-out;
+    }
+    .sidebar a:hover {
+        color: #E0E0E0;
     }
     .content {
         margin-left: 240px;
