@@ -2,8 +2,9 @@
 title: "Ido Hasoy - Portfolio"
 description: "Industrial Engineering and Management student | Data Analytics | Product Development | Process Optimization"
 author: "Ido Hasoy"
-baseurl: ""  
-url: "https://idohasoy.github.io/IdoHasoy/"
+baseurl: "/IdoHasoy"
+url: "https://idohasoy.github.io"
+
 
 # Theme
 remote_theme: jekyll/minima  
