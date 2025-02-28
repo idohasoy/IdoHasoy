@@ -130,7 +130,6 @@ title: "Welcome to My Portfolio"
     
     <div class="section">
         <h2>📂 Projects</h2>
-        <p>Explore my key projects involving data analytics, machine learning, and software development.</p>
         
         <h3>Intelligent Systems</h3>
         <div class="project">
