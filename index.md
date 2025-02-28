@@ -4,6 +4,10 @@ title: "Welcome to My Portfolio"
 ---
 
 <style>
+    .site-header {
+    display: none !important;
+}
+
     body {
         font-family: 'Inter', sans-serif;
         background-color: #0f172a;
