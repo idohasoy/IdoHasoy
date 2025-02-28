@@ -1,6 +1,6 @@
 # Site Settings
 description: "Industrial Engineering | Data Analytics | Product Development"
-author: "Ido Hasoy"
+#author: "Ido Hasoy"
 baseurl: "/IdoHasoy"  
 url: "https://idohasoy.github.io"
 
