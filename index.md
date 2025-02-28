@@ -33,7 +33,7 @@ title: "Welcome to My Portfolio"
     .btn {
         display: inline-block;
         padding: 12px 25px;
-        color: #0f172a;
+        color: #ffffff; /* Ensuring button text is white */
         background-color: #38bdf8;
         text-decoration: none;
         border-radius: 6px;
@@ -102,7 +102,7 @@ title: "Welcome to My Portfolio"
         box-shadow: 0 2px 8px rgba(255, 255, 255, 0.1);
     }
     .project a {
-        color: #38bdf8;
+        color: #ffffff;
         text-decoration: none;
         font-weight: bold;
     }
