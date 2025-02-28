@@ -137,9 +137,9 @@ title: "Welcome to My Portfolio"
             <a class="btn" href="decision_tree_project.zip" download>Download Project</a>
         </div>
         <div class="project">
-            <h3>Project Title 2</h3>
-            <p>Brief description of the project. Explaining its purpose and technologies used.</p>
-            <a class="btn" href="project2.zip" download>Download Project</a>
+            <h3>Word Transformation Path Finder</h3>
+            <p>A Python-based algorithmic project implementing multiple search strategies (A*, Hill Climbing, Simulated Annealing, Local Beam Search, Genetic Algorithm) to transform one word into another using dictionary-based valid words.</p>
+            <a class="btn" href="word_transformation_project.zip" download>Download Project</a>
         </div>
     </div>
     
