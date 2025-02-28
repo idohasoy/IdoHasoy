@@ -94,6 +94,21 @@ title: "Welcome to My Portfolio"
         margin-left: 240px;
         padding: 20px;
     }
+    .project {
+        background: #1e293b;
+        padding: 20px;
+        border-radius: 8px;
+        margin: 15px 0;
+        box-shadow: 0 2px 8px rgba(255, 255, 255, 0.1);
+    }
+    .project a {
+        color: #38bdf8;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .project a:hover {
+        color: #0ea5e9;
+    }
 </style>
 
 <div class="sidebar">
@@ -116,7 +131,16 @@ title: "Welcome to My Portfolio"
     <div class="section">
         <h2>📂 Projects</h2>
         <p>Explore my key projects involving data analytics, machine learning, and software development.</p>
-        <a class="btn" href="projects.html">View My Projects</a>
+        <div class="project">
+            <h3>Project Title 1</h3>
+            <p>Brief description of the project. Explaining its purpose and technologies used.</p>
+            <a class="btn" href="project1.zip" download>Download Project</a>
+        </div>
+        <div class="project">
+            <h3>Project Title 2</h3>
+            <p>Brief description of the project. Explaining its purpose and technologies used.</p>
+            <a class="btn" href="project2.zip" download>Download Project</a>
+        </div>
     </div>
     
     <div class="section">
