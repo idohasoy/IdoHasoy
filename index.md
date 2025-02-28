@@ -5,11 +5,11 @@ title: "Welcome to My Portfolio"
 
 <style>
     body {
-        font-family: 'Poppins', sans-serif;
-        background-color: #121212;
+        font-family: 'Inter', sans-serif;
+        background-color: #0f172a;
         margin: 0;
         padding: 0;
-        color: #E0E0E0;
+        color: #e0e0e0;
     }
     .container {
         width: 90%;
@@ -19,22 +19,22 @@ title: "Welcome to My Portfolio"
         text-align: center;
     }
     h1, h2 {
-        color: #BB86FC;
+        color: #38bdf8;
     }
     .section {
-        background: #1E1E1E;
+        background: #1e293b;
         padding: 30px;
         margin: 30px 0;
         border-radius: 12px;
         box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
-        color: #E0E0E0;
+        color: #e0e0e0;
         text-align: center;
     }
     .btn {
         display: inline-block;
         padding: 12px 25px;
-        color: #121212;
-        background-color: #BB86FC;
+        color: #0f172a;
+        background-color: #38bdf8;
         text-decoration: none;
         border-radius: 6px;
         margin: 15px;
@@ -43,11 +43,11 @@ title: "Welcome to My Portfolio"
         transition: background 0.3s ease-in-out, transform 0.2s ease;
     }
     .btn:hover {
-        background-color: #985EFF;
+        background-color: #0ea5e9;
         transform: scale(1.05);
     }
     .navbar {
-        background: #1E1E1E;
+        background: #1e293b;
         padding: 15px;
         text-align: center;
         position: fixed;
@@ -57,7 +57,7 @@ title: "Welcome to My Portfolio"
         box-shadow: 0 2px 10px rgba(255, 255, 255, 0.1);
     }
     .navbar a {
-        color: #BB86FC;
+        color: #38bdf8;
         text-decoration: none;
         margin: 0 20px;
         font-size: 1.2em;
@@ -66,7 +66,7 @@ title: "Welcome to My Portfolio"
     .hero {
         padding: 100px 20px;
         text-align: center;
-        background: linear-gradient(135deg, #3700B3, #BB86FC);
+        background: linear-gradient(135deg, #1e40af, #38bdf8);
         border-radius: 12px;
     }
     .sidebar {
@@ -75,20 +75,20 @@ title: "Welcome to My Portfolio"
         left: 0;
         width: 220px;
         height: 100%;
-        background: #1E1E1E;
+        background: #1e293b;
         padding: 20px;
         box-shadow: 2px 0 10px rgba(255, 255, 255, 0.1);
     }
     .sidebar a {
         display: block;
-        color: #BB86FC;
+        color: #38bdf8;
         text-decoration: none;
         padding: 10px 0;
         font-size: 1.1em;
         transition: color 0.3s ease-in-out;
     }
     .sidebar a:hover {
-        color: #E0E0E0;
+        color: #e0e0e0;
     }
     .content {
         margin-left: 240px;
