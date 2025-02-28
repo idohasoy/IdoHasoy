@@ -132,9 +132,9 @@ title: "Welcome to My Portfolio"
         <h2>📂 Projects</h2>
         <p>Explore my key projects involving data analytics, machine learning, and software development.</p>
         <div class="project">
-            <h3>Project Title 1</h3>
-            <p>Brief description of the project. Explaining its purpose and technologies used.</p>
-            <a class="btn" href="project1.zip" download>Download Project</a>
+            <h3>Decision Tree Classifier with Data Preprocessing</h3>
+            <p>A Python-based decision tree classifier that includes custom data preprocessing, entropy-based feature selection, and chi-squared pruning. The project is designed to analyze customer behavior for predicting term deposit subscriptions.</p>
+            <a class="btn" href="decision_tree_project.zip" download>Download Project</a>
         </div>
         <div class="project">
             <h3>Project Title 2</h3>
