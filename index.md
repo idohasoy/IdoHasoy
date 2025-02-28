@@ -1,97 +1,140 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- Page Title -->
-    <title>Ido Hasoy | Portfolio</title>
-    
-    <!-- SEO Metadata -->
-    <meta name="description" content="Ido Hasoy - Industrial Engineering | Data Analytics | Product Development">
-    <meta name="image" content="https://idohasoy.github.io/assets/og-image.png">
-    
-    <!-- Open Graph Metadata -->
-    <meta property="og:locale" content="en_US">
-    <meta property="og:site_name" content="Ido Hasoy Portfolio">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Ido Hasoy | Portfolio">
-    <meta property="og:description" content="Industrial Engineering | Data Analytics | Product Development">
-    <meta property="og:url" content="https://idohasoy.github.io">
-    <meta property="og:image" content="https://idohasoy.github.io/assets/og-image.png">
-    
-    <!-- Twitter Metadata -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:creator" content="@idohasoy">
-    <meta property="twitter:site" content="@idohasoy">
-    <meta property="twitter:title" content="Ido Hasoy | Portfolio">
-    <meta property="twitter:description" content="Industrial Engineering | Data Analytics | Product Development">
-    <meta property="twitter:url" content="https://idohasoy.github.io">
-    <meta property="twitter:image" content="https://idohasoy.github.io/assets/og-image.png">
+---
+layout: default
+title: "Welcome to My Portfolio"
+---
 
-    <!-- Favicon & App Icons -->
-    <link rel="icon" type="image/png" sizes="512x192" href="/favicon/android-chrome-512x512.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="/favicon/android-chrome-192x192.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/favicon/site.webmanifest">
-    <meta name="theme-color" content="#0f172a">
-    
-    <!-- Google Analytics (Replace 'G-XXXXXXX' with your tracking ID) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-        gtag('config', 'G-XXXXXXX', { page_path: window.location.pathname });
-    </script>
+<style>
+    .site-header {
+    display: none !important;
+}
 
-    <!-- Preload Fonts -->
-    <link rel="preload" href="/assets/fonts/inter.woff2" as="font" type="font/woff2" crossorigin="anonymous">
-    
-    <!-- CSS -->
-    <link rel="stylesheet" href="/assets/styles/main.css">
-    
-    <style>
-        .site-header, .main, .wrapper {
-            display: none !important;
-            height: 0 !important;
-            margin: 0 !important;
-            padding: 0 !important;
-        }
-        
-        body {
-            font-family: 'Inter', sans-serif;
-            background-color: #0f172a;
-            margin: 0;
-            padding: 0;
-            color: #e0e0e0;
-        }
-        .content {
-            margin-top: 0 !important;
-            padding-top: 0 !important;
-        }
-    </style>
-</head>
-<body>
-    <div class="sidebar">
-        <a href="#home">Home</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
+    body {
+        font-family: 'Inter', sans-serif;
+        background-color: #0f172a;
+        margin: 0;
+        padding: 0;
+        color: #e0e0e0;
+    }
+    .container {
+        width: 90%;
+        max-width: 1200px;
+        margin: auto;
+        padding: 40px 20px;
+        text-align: center;
+    }
+    h1, h2 {
+        color: #38bdf8;
+    }
+    .section {
+        background: #1e293b;
+        padding: 30px;
+        margin: 30px 0;
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+        color: #e0e0e0;
+        text-align: center;
+    }
+    .btn {
+        display: inline-block;
+        padding: 12px 25px;
+        color: #ffffff;
+        background-color: #38bdf8;
+        text-decoration: none;
+        border-radius: 6px;
+        margin: 15px;
+        font-weight: bold;
+        font-size: 1.2em;
+        transition: background 0.3s ease-in-out, transform 0.2s ease;
+    }
+    .btn:hover {
+        background-color: #0ea5e9;
+        transform: scale(1.05);
+    }
+    .navbar {
+        background: #1e293b;
+        padding: 15px;
+        text-align: center;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        box-shadow: 0 2px 10px rgba(255, 255, 255, 0.1);
+    }
+    .navbar a {
+        color: #38bdf8;
+        text-decoration: none;
+        margin: 0 20px;
+        font-size: 1.2em;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .hero {
+        padding: 100px 20px;
+        text-align: center;
+        background: linear-gradient(135deg, #1e40af, #38bdf8);
+        border-radius: 12px;
+    }
+    .sidebar {
+        position: fixed;
+        top: 50px;
+        left: 0;
+        width: 220px;
+        height: 100%;
+        background: #1e293b;
+        padding: 20px;
+        box-shadow: 2px 0 10px rgba(255, 255, 255, 0.1);
+    }
+    .sidebar a {
+        display: block;
+        color: #38bdf8;
+        text-decoration: none;
+        padding: 10px 0;
+        font-size: 1.1em;
+        transition: color 0.3s ease-in-out;
+        cursor: pointer;
+    }
+    .sidebar a:hover {
+        color: #e0e0e0;
+    }
+    .content {
+        margin-left: 240px;
+        padding: 20px;
+    }
+    .project {
+        background: #1e293b;
+        padding: 20px;
+        border-radius: 8px;
+        margin: 15px 0;
+        box-shadow: 0 2px 8px rgba(255, 255, 255, 0.1);
+    }
+    .project a {
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .project a:hover {
+        color: #0ea5e9;
+    }
+</style>
+
+<div class="sidebar">
+    <a href="#home">Home</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</div>
+
+<div class="content">
+    <div id="home" class="hero">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Hi, I'm <strong>Ido Hasoy</strong>, an Industrial Engineering and Management student specializing in <strong>Data Analytics and Product Development</strong>. Passionate about optimizing processes, developing data-driven solutions, and leveraging intelligent systems for business improvement.</p>
     </div>
-
-    <div class="content">
-        <div id="home" class="hero">
-            <h1>Welcome to My Portfolio</h1>
-            <p>Hi, I'm <strong>Ido Hasoy</strong>, an Industrial Engineering and Management student specializing in <strong>Data Analytics and Product Development</strong>. Passionate about optimizing processes, developing data-driven solutions, and leveraging intelligent systems for business improvement.</p>
-        </div>
-        
-        <div class="section">
-            <h2>👨‍💼 About Me</h2>
-            <p>Currently pursuing a degree in Industrial Engineering and Management at Ben-Gurion University, I have a strong foundation in data analytics, machine learning, and business strategy. With hands-on experience in SQL, Power BI, and Python, I enjoy solving complex problems and creating impactful solutions. My background as a combat officer has honed my leadership and decision-making skills, enabling me to thrive in high-pressure environments.</p>
-        </div>
-        <div id="projects" class="section">
+    
+    <div class="section">
+        <h2>👨‍💼 About Me</h2>
+        <p>Currently pursuing a degree in Industrial Engineering and Management at Ben-Gurion University, I have a strong foundation in data analytics, machine learning, and business strategy. With hands-on experience in SQL, Power BI, and Python, I enjoy solving complex problems and creating impactful solutions. My background as a combat officer has honed my leadership and decision-making skills, enabling me to thrive in high-pressure environments.</p>
+    </div>
+    
+    <div id="projects" class="section">
         <h2>📂 Projects</h2>
         
         <h3>Intelligent Systems</h3>
@@ -115,12 +158,10 @@
             <a class="btn" href="Part3-Operation-Report.pbix" download>Download Operations Report</a>
         </div>
     </div>
-        
-        <div id="contact" class="section">
-            <h2>📞 Contact Me</h2>
-            <p>📧 <strong>Email:</strong> <a href="mailto:ido.hasoy10@gmail.com">ido.hasoy10@gmail.com</a></p>
-            <p>💼 <strong>LinkedIn:</strong> <a href="https://linkedin.com/in/ido-hasoy" target="_blank">linkedin.com/in/ido-hasoy</a></p>
-        </div>
+    
+    <div id="contact" class="section">
+        <h2>📞 Contact Me</h2>
+        <p>💎 <strong>Email:</strong> <a href="mailto:ido.hasoy10@gmail.com">ido.hasoy10@gmail.com</a></p>
+        <p>🌟 <strong>LinkedIn:</strong> <a href="https://linkedin.com/in/ido-hasoy" target="_blank">linkedin.com/in/ido-hasoy</a></p>
     </div>
-</body>
-</html>
+</div>
