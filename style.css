@@ -1,4 +1,4 @@
-/* Title Section */
+/* Hide default site title */
 .site-title {
     text-align: center;
     padding: 40px 20px;
@@ -9,13 +9,6 @@
     text-transform: uppercase;
     letter-spacing: 2px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px; /* Ensures space below the title */
 }
 
 .site-title h1 {
@@ -40,37 +33,17 @@ body {
     color: #e0e0e0;
 }
 
-/* Sidebar */
-.sidebar {
-    position: absolute;
-    top: 120px; /* Starts below the title */
-    left: 0;
-    width: 220px;
-    background: #1e293b;
-    padding: 20px;
-    box-shadow: 2px 0 10px rgba(255, 255, 255, 0.1);
+/* Layout */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 20px;
+    text-align: center;
 }
 
-/* Sidebar links */
-.sidebar a {
-    display: block;
+h1, h2 {
     color: #38bdf8;
-    text-decoration: none;
-    padding: 10px 0;
-    font-size: 1.1em;
-    transition: color 0.3s ease-in-out;
-    cursor: pointer;
-}
-
-.sidebar a:hover {
-    color: #e0e0e0;
-}
-
-/* Adjust Content Padding */
-.content {
-    margin-left: 240px;
-    padding: 20px;
-    padding-top: 20px; /* Space below title */
 }
 
 /* Sections */
@@ -101,6 +74,59 @@ body {
 .btn:hover {
     background-color: #0ea5e9;
     transform: scale(1.05);
+}
+
+/* Navbar */
+.navbar {
+    background: #1e293b;
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-shadow: 0 2px 10px rgba(255, 255, 255, 0.1);
+}
+
+.navbar a {
+    color: #38bdf8;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Sidebar */
+.sidebar {
+    position: fixed;
+    top: 50px;
+    left: 0;
+    width: 220px;
+    height: 100%;
+    background: #1e293b;
+    padding: 20px;
+    box-shadow: 2px 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.sidebar a {
+    display: block;
+    color: #38bdf8;
+    text-decoration: none;
+    padding: 10px 0;
+    font-size: 1.1em;
+    transition: color 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.sidebar a:hover {
+    color: #e0e0e0;
+}
+
+/* Content */
+.content {
+    margin-left: 240px;
+    padding: 20px;
 }
 
 /* Projects */
