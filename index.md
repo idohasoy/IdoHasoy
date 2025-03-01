@@ -23,7 +23,19 @@ title: "Welcome to My Portfolio"
 <!-- Main Content -->
 <div class="content">
     <div id="home" class="hero">
-                /* About Me Section */
+        <h2>👨‍💼 About Me</h2>
+        <p>
+            Industrial Engineering and Management student at <strong>Ben-Gurion University</strong>, specializing in <strong>intelligent systems</strong>. 
+            Passionate about <strong>data analytics, product development, and process optimization</strong>.
+        </p>
+        <p>
+            Skilled in <strong>SQL, Power BI, and Python</strong>, with proven leadership experience as a former <strong>combat officer</strong>. 
+        </p>
+        <p>
+            Seeking opportunities in <strong>data analysis or product management</strong> to leverage my skills and make an impact.
+        </p>
+    </div>
+     /* About Me Section */
         .hero {
             padding: 100px 20px;
             text-align: left; /* Align text to the left */
@@ -38,19 +50,6 @@ title: "Welcome to My Portfolio"
             margin-bottom: 10px;
             font-size: 1.1em;
         }
-        <h2>👨‍💼 About Me</h2>
-        <p>
-            Industrial Engineering and Management student at <strong>Ben-Gurion University</strong>, specializing in <strong>intelligent systems</strong>. 
-            Passionate about <strong>data analytics, product development, and process optimization</strong>.
-        </p>
-        <p>
-            Skilled in <strong>SQL, Power BI, and Python</strong>, with proven leadership experience as a former <strong>combat officer</strong>. 
-        </p>
-        <p>
-            Seeking opportunities in <strong>data analysis or product management</strong> to leverage my skills and make an impact.
-        </p>
-    </div>
-    
     <div id="projects" class="section">
         <h2>📂 Projects</h2>
         
