@@ -23,6 +23,21 @@ title: "Welcome to My Portfolio"
 <!-- Main Content -->
 <div class="content">
     <div id="home" class="hero">
+                /* About Me Section */
+        .hero {
+            padding: 100px 20px;
+            text-align: left; /* Align text to the left */
+            background: linear-gradient(135deg, #1e40af, #38bdf8);
+            border-radius: 12px;
+            max-width: 800px; /* Adjust width for better readability */
+            margin: auto; /* Center the box while keeping text left-aligned */
+        }
+        
+        .hero p {
+            text-align: left; /* Ensure all paragraphs are aligned left */
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
         <h2>👨‍💼 About Me</h2>
         <p>
             Industrial Engineering and Management student at <strong>Ben-Gurion University</strong>, specializing in <strong>intelligent systems</strong>. 
