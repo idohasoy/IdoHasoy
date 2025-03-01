@@ -4,13 +4,12 @@ title: "Welcome to My Portfolio"
 ---
 
 <style>
-    .site-header {
+    .site-title {
     display: none !important;
-    height: 0 !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    overflow: hidden !important;
+    visibility: hidden;
+    height: 0;
 }
+
 
 
     body {
