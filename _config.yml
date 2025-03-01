@@ -3,6 +3,7 @@ title: null
 description: "Industrial Engineering | Data Analytics | Product Development"
 author: "Ido Hasoy"
 baseurl: "/IdoHasoy"
+header: false
 url: "https://idohasoy.github.io"
 
 # Use Minimal Mistakes Theme
