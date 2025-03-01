@@ -1,7 +1,7 @@
-/* Hide default site title */
+/* Title Section */
 .site-title {
     text-align: center;
-    padding: 40px 20px;
+    padding: 60px 20px; /* Increased padding */
     background: linear-gradient(135deg, #1e40af, #38bdf8);
     color: white;
     font-size: 2em;
@@ -9,6 +9,11 @@
     text-transform: uppercase;
     letter-spacing: 2px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
 }
 
 .site-title h1 {
@@ -97,18 +102,20 @@ h1, h2 {
     cursor: pointer;
 }
 
-/* Sidebar */
+/* Sidebar Fix */
 .sidebar {
     position: fixed;
-    top: 50px;
+    top: 160px; /* Move below the header */
     left: 0;
     width: 220px;
-    height: 100%;
+    height: calc(100% - 160px);
     background: #1e293b;
     padding: 20px;
     box-shadow: 2px 0 10px rgba(255, 255, 255, 0.1);
+    z-index: 99;
 }
 
+/* Sidebar links */
 .sidebar a {
     display: block;
     color: #38bdf8;
@@ -123,10 +130,11 @@ h1, h2 {
     color: #e0e0e0;
 }
 
-/* Content */
+/* Adjust Content Padding */
 .content {
     margin-left: 240px;
     padding: 20px;
+    padding-top: 220px; /* Move content further down */
 }
 
 /* Projects */
