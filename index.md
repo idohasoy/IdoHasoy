@@ -5,7 +5,7 @@ title: "Welcome to My Portfolio"
 
 <link rel="stylesheet" href="style.css">
 
-<!-- Title Section at the Top -->
+<!-- Title Section -->
 <header class="site-title">
     <h1>Ido Hasoy</h1>
     <h2>Industrial Engineering | Data Analytics | Product Development</h2>
