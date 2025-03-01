@@ -1,64 +1,171 @@
----
-layout: custom
-title: "Welcome to My Portfolio"
----
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-<link rel="stylesheet" href="style.css">
+/* Body Layout */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #0f172a;
+    color: #e0e0e0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
 
-<div class="header-container">
-    <!-- Sidebar Navigation -->
-    <div class="sidebar">
-        <a href="#home">Home</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-    </div>
+/* Header and Sidebar Container (Row Layout) */
+.header-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    background: linear-gradient(135deg, #1e40af, #38bdf8);
+    padding: 20px;
+}
 
-    <!-- Title Section Next to Sidebar -->
-    <header class="site-title">
-        <h1>Ido Hasoy</h1>
-        <h2>Industrial Engineering | Data Analytics | Product Development</h2>
-    </header>
-</div>
+/* Sidebar - Fixed on Left */
+.sidebar {
+    width: 220px;
+    background: #1e293b;
+    padding: 20px;
+    height: 100vh; /* Full height */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
 
-<!-- Main Content -->
-<div class="content">
-    <div id="home" class="hero">
-        <p>Hi, I'm <strong>Ido Hasoy</strong>, an Industrial Engineering and Management student specializing in <strong>Data Analytics and Product Development</strong>. Passionate about optimizing processes, developing data-driven solutions, and leveraging intelligent systems for business improvement.</p>
-    </div>
-    
-    <div class="section">
-        <h2>👨‍💼 About Me</h2>
-        <p>Currently pursuing a degree in Industrial Engineering and Management at Ben-Gurion University, I have a strong foundation in data analytics, machine learning, and business strategy. With hands-on experience in SQL, Power BI, and Python, I enjoy solving complex problems and creating impactful solutions. My background as a combat officer has honed my leadership and decision-making skills, enabling me to thrive in high-pressure environments.</p>
-    </div>
-    
-    <div id="projects" class="section">
-        <h2>📂 Projects</h2>
-        
-        <h3>Intelligent Systems</h3>
-        <div class="project">
-            <h3>Decision Tree Classifier with Data Preprocessing</h3>
-            <p>A Python-based decision tree classifier that includes custom data preprocessing, entropy-based feature selection, and chi-squared pruning.</p>
-            <a class="btn" href="decision_tree_project.zip" download>Download Project</a>
-        </div>
-        <div class="project">
-            <h3>Word Transformation Search Algorithms</h3>
-            <p>A project implementing multiple search algorithms to find optimal word transformations.</p>
-            <a class="btn" href="project2.zip" download>Download Project</a>
-        </div>
-        
-        <h3>SQL and Power BI</h3>
-        <div class="project">
-            <h3>Company Performance & Operations Report</h3>
-            <p>A Power BI-based analytics project with SQL data processing.</p>
-            <a class="btn" href="Part3.sql" download>Download SQL Script</a>
-            <a class="btn" href="Part3-Company-Performance.pbix" download>Download Company Performance Report</a>
-            <a class="btn" href="Part3-Operation-Report.pbix" download>Download Operations Report</a>
-        </div>
-    </div>
-    
-    <div id="contact" class="section">
-        <h2>📞 Contact Me</h2>
-        <p>💎 <strong>Email:</strong> <a href="mailto:ido.hasoy10@gmail.com">ido.hasoy10@gmail.com</a></p>
-        <p>🌟 <strong>LinkedIn:</strong> <a href="https://linkedin.com/in/ido-hasoy" target="_blank">linkedin.com/in/ido-hasoy</a></p>
-    </div>
-</div>
+/* Sidebar Links */
+.sidebar a {
+    display: block;
+    color: #38bdf8;
+    text-decoration: none;
+    padding: 12px 0;
+    font-size: 1.1em;
+    transition: color 0.3s ease-in-out;
+}
+
+.sidebar a:hover {
+    color: #e0e0e0;
+}
+
+/* Title Section - Next to Sidebar */
+.site-title {
+    flex-grow: 1;
+    text-align: center;
+    padding: 40px 20px;
+    color: white;
+}
+
+.site-title h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.site-title h2 {
+    font-size: 1.2em;
+    font-weight: 400;
+    opacity: 0.9;
+}
+
+/* Content Layout */
+.content {
+    margin-left: 240px; /* Adjust to match sidebar width */
+    padding: 40px;
+}
+
+/* Sections */
+.section {
+    background: #1e293b;
+    padding: 30px;
+    margin: 30px 0;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+    text-align: center;
+}
+
+/* Hero Section */
+.hero {
+    padding: 100px 20px;
+    text-align: center;
+    background: linear-gradient(135deg, #1e40af, #38bdf8);
+    border-radius: 12px;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    color: #ffffff;
+    background-color: #38bdf8;
+    text-decoration: none;
+    border-radius: 6px;
+    margin: 15px;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: background 0.3s ease-in-out, transform 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #0ea5e9;
+    transform: scale(1.05);
+}
+
+/* Projects */
+.project {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 15px 0;
+    box-shadow: 0 2px 8px rgba(255, 255, 255, 0.1);
+}
+
+.project a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project a:hover {
+    color: #0ea5e9;
+}
+
+/* Adjust Content Spacing */
+h1, h2 {
+    color: #38bdf8;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 1024px) {
+    .header-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .sidebar a {
+        display: inline-block;
+        margin: 10px;
+    }
+
+    .site-title {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .content {
+        margin-left: 0;
+        padding: 20px;
+    }
+}
