@@ -23,10 +23,6 @@ title: "Welcome to My Portfolio"
 <!-- Main Content -->
 <div class="content">
     <div id="home" class="hero">
-        <p>Hi, I'm <strong>Ido Hasoy</strong>, an Industrial Engineering and Management student specializing in <strong>Data Analytics and Product Development</strong>. Passionate about optimizing processes, developing data-driven solutions, and leveraging intelligent systems for business improvement.</p>
-    </div>
-    
-    <div class="section">
         <h2>👨‍💼 About Me</h2>
         <p>Currently pursuing a degree in Industrial Engineering and Management at Ben-Gurion University, I have a strong foundation in data analytics, machine learning, and business strategy. With hands-on experience in SQL, Power BI, and Python, I enjoy solving complex problems and creating impactful solutions. My background as a combat officer has honed my leadership and decision-making skills, enabling me to thrive in high-pressure environments.</p>
     </div>
