@@ -3,123 +3,13 @@ layout: custom
 title: "Welcome to My Portfolio"
 ---
 
-<style>
-    .site-title {
-    display: none !important;
-    visibility: hidden;
-    height: 0;
-}
+<link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
 
-
-
-    body {
-        font-family: 'Inter', sans-serif;
-        background-color: #0f172a;
-        margin: 0;
-        padding: 0;
-        color: #e0e0e0;
-    }
-    .container {
-        width: 90%;
-        max-width: 1200px;
-        margin: auto;
-        padding: 40px 20px;
-        text-align: center;
-    }
-    h1, h2 {
-        color: #38bdf8;
-    }
-    .section {
-        background: #1e293b;
-        padding: 30px;
-        margin: 30px 0;
-        border-radius: 12px;
-        box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
-        color: #e0e0e0;
-        text-align: center;
-    }
-    .btn {
-        display: inline-block;
-        padding: 12px 25px;
-        color: #ffffff;
-        background-color: #38bdf8;
-        text-decoration: none;
-        border-radius: 6px;
-        margin: 15px;
-        font-weight: bold;
-        font-size: 1.2em;
-        transition: background 0.3s ease-in-out, transform 0.2s ease;
-    }
-    .btn:hover {
-        background-color: #0ea5e9;
-        transform: scale(1.05);
-    }
-    .navbar {
-        background: #1e293b;
-        padding: 15px;
-        text-align: center;
-        position: fixed;
-        width: 100%;
-        top: 0;
-        left: 0;
-        box-shadow: 0 2px 10px rgba(255, 255, 255, 0.1);
-    }
-    .navbar a {
-        color: #38bdf8;
-        text-decoration: none;
-        margin: 0 20px;
-        font-size: 1.2em;
-        font-weight: bold;
-        cursor: pointer;
-    }
-    .hero {
-        padding: 100px 20px;
-        text-align: center;
-        background: linear-gradient(135deg, #1e40af, #38bdf8);
-        border-radius: 12px;
-    }
-    .sidebar {
-        position: fixed;
-        top: 50px;
-        left: 0;
-        width: 220px;
-        height: 100%;
-        background: #1e293b;
-        padding: 20px;
-        box-shadow: 2px 0 10px rgba(255, 255, 255, 0.1);
-    }
-    .sidebar a {
-        display: block;
-        color: #38bdf8;
-        text-decoration: none;
-        padding: 10px 0;
-        font-size: 1.1em;
-        transition: color 0.3s ease-in-out;
-        cursor: pointer;
-    }
-    .sidebar a:hover {
-        color: #e0e0e0;
-    }
-    .content {
-        margin-left: 240px;
-        padding: 20px;
-    }
-    .project {
-        background: #1e293b;
-        padding: 20px;
-        border-radius: 8px;
-        margin: 15px 0;
-        box-shadow: 0 2px 8px rgba(255, 255, 255, 0.1);
-    }
-    .project a {
-        color: #ffffff;
-        text-decoration: none;
-        font-weight: bold;
-    }
-    .project a:hover {
-        color: #0ea5e9;
-    }
-</style>
+<!-- Title Section at the Top -->
+<header class="site-title">
+    <h1>Ido Hasoy</h1>
+    <h2>Industrial Engineering | Data Analytics | Product Development</h2>
+</header>
 
 <div class="sidebar">
     <a href="#home">Home</a>
@@ -129,7 +19,6 @@ title: "Welcome to My Portfolio"
 
 <div class="content">
     <div id="home" class="hero">
-        <h1>Welcome to My Portfolio</h1>
         <p>Hi, I'm <strong>Ido Hasoy</strong>, an Industrial Engineering and Management student specializing in <strong>Data Analytics and Product Development</strong>. Passionate about optimizing processes, developing data-driven solutions, and leveraging intelligent systems for business improvement.</p>
     </div>
     
