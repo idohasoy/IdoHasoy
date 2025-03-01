@@ -5,17 +5,19 @@ title: "Welcome to My Portfolio"
 
 <link rel="stylesheet" href="style.css">
 
-<!-- Title Section -->
-<header class="site-title">
-    <h1>Ido Hasoy</h1>
-    <h2>Industrial Engineering | Data Analytics | Product Development</h2>
-</header>
+<div class="header-container">
+    <!-- Sidebar Navigation -->
+    <div class="sidebar">
+        <a href="#home">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </div>
 
-<!-- Sidebar Navigation -->
-<div class="sidebar">
-    <a href="#home">Home</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
+    <!-- Title Section Next to Sidebar -->
+    <header class="site-title">
+        <h1>Ido Hasoy</h1>
+        <h2>Industrial Engineering | Data Analytics | Product Development</h2>
+    </header>
 </div>
 
 <!-- Main Content -->
