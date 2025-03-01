@@ -1,4 +1,4 @@
-/* Hide the default site title */
+/* Title Section */
 .site-title {
     text-align: center;
     padding: 40px 20px;
@@ -24,7 +24,33 @@
     opacity: 0.9;
 }
 
-/* General Styles */
+/* Fix Sidebar Overlapping the Title */
+.sidebar {
+    position: fixed;
+    top: 120px; /* Adjust this value based on title height */
+    left: 0;
+    width: 220px;
+    height: calc(100% - 120px); /* Ensure it doesn't overlap */
+    background: #1e293b;
+    padding: 20px;
+    box-shadow: 2px 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.sidebar a {
+    display: block;
+    color: #38bdf8;
+    text-decoration: none;
+    padding: 10px 0;
+    font-size: 1.1em;
+    transition: color 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.sidebar a:hover {
+    color: #e0e0e0;
+}
+
+/* General Layout */
 body {
     font-family: 'Inter', sans-serif;
     background-color: #0f172a;
@@ -33,7 +59,6 @@ body {
     color: #e0e0e0;
 }
 
-/* Layout */
 .container {
     width: 90%;
     max-width: 1200px;
@@ -95,32 +120,6 @@ h1, h2 {
     font-size: 1.2em;
     font-weight: bold;
     cursor: pointer;
-}
-
-/* Sidebar */
-.sidebar {
-    position: fixed;
-    top: 50px;
-    left: 0;
-    width: 220px;
-    height: 100%;
-    background: #1e293b;
-    padding: 20px;
-    box-shadow: 2px 0 10px rgba(255, 255, 255, 0.1);
-}
-
-.sidebar a {
-    display: block;
-    color: #38bdf8;
-    text-decoration: none;
-    padding: 10px 0;
-    font-size: 1.1em;
-    transition: color 0.3s ease-in-out;
-    cursor: pointer;
-}
-
-.sidebar a:hover {
-    color: #e0e0e0;
 }
 
 /* Content */
