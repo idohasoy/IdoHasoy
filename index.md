@@ -3,7 +3,7 @@ layout: custom
 title: "Welcome to My Portfolio"
 ---
 
-<link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+<link rel="stylesheet" href="style.css">
 
 <!-- Title Section at the Top -->
 <header class="site-title">
