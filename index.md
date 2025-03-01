@@ -11,12 +11,14 @@ title: "Welcome to My Portfolio"
     <h2>Industrial Engineering | Data Analytics | Product Development</h2>
 </header>
 
+<!-- Sidebar Navigation -->
 <div class="sidebar">
     <a href="#home">Home</a>
     <a href="#projects">Projects</a>
     <a href="#contact">Contact</a>
 </div>
 
+<!-- Main Content -->
 <div class="content">
     <div id="home" class="hero">
         <p>Hi, I'm <strong>Ido Hasoy</strong>, an Industrial Engineering and Management student specializing in <strong>Data Analytics and Product Development</strong>. Passionate about optimizing processes, developing data-driven solutions, and leveraging intelligent systems for business improvement.</p>
