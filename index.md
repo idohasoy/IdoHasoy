@@ -35,21 +35,6 @@ title: "Welcome to My Portfolio"
             Seeking opportunities in <strong>data analysis or product management</strong> to leverage my skills and make an impact.
         </p>
     </div>
-     /* About Me Section */
-        .hero {
-            padding: 100px 20px;
-            text-align: left; /* Align text to the left */
-            background: linear-gradient(135deg, #1e40af, #38bdf8);
-            border-radius: 12px;
-            max-width: 800px; /* Adjust width for better readability */
-            margin: auto; /* Center the box while keeping text left-aligned */
-        }
-        
-        .hero p {
-            text-align: left; /* Ensure all paragraphs are aligned left */
-            margin-bottom: 10px;
-            font-size: 1.1em;
-        }
     <div id="projects" class="section">
         <h2>📂 Projects</h2>
         
