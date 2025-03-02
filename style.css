@@ -8,187 +8,70 @@
 /* Body Layout */
 body {
     font-family: 'Inter', sans-serif;
-    background-color: #ffffff;
-    color: #333;
+    background-color: #0f172a;
+    color: #e0e0e0;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
-/* Header and Sidebar Container */
+/* Header Container */
 .header-container {
     display: flex;
-    align-items: center;
-    width: 100%;
-    background: linear-gradient(135deg, #00bcd4, #008ba3);
-    padding: 40px;
-    color: white;
-}
-
-/* Sidebar - Fixed on Left */
-.sidebar {
-    width: 250px;
-    background: #002b36;
-    padding: 30px;
-    height: 100vh;
-    display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    position: fixed;
-    left: 0;
-    top: 0;
-}
-
-.sidebar a {
-    display: block;
-    color: #00bcd4;
-    text-decoration: none;
-    padding: 15px 10px;
-    font-size: 1.2em;
-    font-weight: bold;
-    transition: color 0.3s ease-in-out;
-}
-
-.sidebar a:hover {
-    color: #ffffff;
-}
-
-/* Title Section - Next to Sidebar */
-.site-title {
-    flex-grow: 1;
+    width: 100%;
+    align-items: center;
+    background: linear-gradient(135deg, #1e40af, #38bdf8);
+    padding: 20px;
     text-align: center;
-    padding: 40px 20px;
+}
+
+/* Title Section */
+.site-title {
+    text-align: center;
     color: white;
-    text-transform: uppercase;
-    font-weight: bold;
+    width: 100%;
+    padding: 40px 20px;
 }
 
 .site-title h1 {
-    font-size: 3.5em;
-    font-weight: 800;
-    margin-bottom: 10px;
+    font-size: 2.5em;
+    font-weight: 700;
 }
 
 .site-title h2 {
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-weight: 400;
     opacity: 0.9;
 }
 
+/* Sidebar - Starts Below Header */
+.sidebar {
+    width: 220px;
+    background: #1e293b;
+    padding: 20px;
+    min-height: 100vh; /* Full height of page */
+    position: absolute;
+    top: 130px; /* Adjust this value to align below the title */
+    left: 0;
+}
+
+/* Sidebar Links */
+.sidebar a {
+    display: block;
+    color: #38bdf8;
+    text-decoration: none;
+    padding: 12px 0;
+    font-size: 1.1em;
+    transition: color 0.3s ease-in-out;
+}
+
+.sidebar a:hover {
+    color: #e0e0e0;
+}
+
 /* Content Layout */
 .content {
-    margin-left: 270px;
-    padding: 50px;
-}
-
-/* Hero Section */
-.hero {
-    padding: 50px;
-    text-align: left;
-    background: linear-gradient(135deg, #e0f7fa, #b2ebf2);
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
-
-/* About Me Section */
-.about-me {
-    background: #ccf3ff;
-    padding: 25px 30px;
-    margin: 30px auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    max-width: 900px;
-    text-align: left;
-}
-
-.about-me h2 {
-    font-size: 1.8em;
-    color: #007799;
-    display: flex;
-    align-items: center;
-}
-
-.about-me h2::before {
-    content: "👨‍💼 ";
-    font-size: 1.2em;
-    margin-right: 8px;
-}
-
-/* Sections */
-.section {
-    background: #f5f5f5;
-    padding: 30px;
-    margin: 30px auto;
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    max-width: 900px;
-}
-
-/* Buttons */
-.btn {
-    display: inline-block;
-    padding: 12px 25px;
-    color: #ffffff;
-    background-color: #00bcd4;
-    text-decoration: none;
-    border-radius: 6px;
-    margin: 15px;
-    font-weight: bold;
-    font-size: 1.2em;
-    transition: background 0.3s ease-in-out, transform 0.2s ease;
-}
-
-.btn:hover {
-    background-color: #008ba3;
-    transform: scale(1.05);
-}
-
-/* Projects */
-.project {
-    background: #ffffff;
-    padding: 20px;
-    border-radius: 8px;
-    margin: 15px 0;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-}
-
-.project a {
-    color: #008ba3;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.project a:hover {
-    color: #004d61;
-}
-
-/* Responsive Adjustments */
-@media (max-width: 1024px) {
-    .header-container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .sidebar {
-        width: 100%;
-        height: auto;
-        position: relative;
-        text-align: center;
-        padding: 10px 0;
-    }
-
-    .sidebar a {
-        display: inline-block;
-        margin: 10px;
-    }
-
-    .site-title {
-        text-align: center;
-        padding: 20px;
-    }
-
-    .content {
-        margin-left: 0;
-        padding: 20px;
-    }
+    margin-left: 240px; /* Adjust based on sidebar width */
+    padding: 40px;
 }
