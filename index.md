@@ -24,7 +24,7 @@ title: "Welcome to My Portfolio"
 <div class="content">
     <div id="home" class="hero">
         <h2>👨‍💼 About Me</h2>
-        <p>Currently pursuing a degree in Industrial Engineering and Management at Ben-Gurion University, I have a strong foundation in data analytics, machine learning, and business strategy. With hands-on experience in SQL, Power BI, and Python, I enjoy solving complex problems and creating impactful solutions. My background as a combat officer has honed my leadership and decision-making skills, enabling me to thrive in high-pressure environments.</p>
+        <p>Industrial Engineering and Management student at Ben-Gurion University, specializing in intelligent systems. Passionate about data analytics, product development, and process optimization. Skilled in SQL, Power BI, and Python, with proven leadership as a former combat officer. Seeking opportunities in data analysis or product management.</p>
     </div>
     
     <div id="projects" class="section">
