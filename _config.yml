@@ -1,6 +1,6 @@
 # Site Settings
-title: ""
-header: false
+title: "Ido Hasoy | Portfolio"
+header: true
 minimal_mistakes_skin: default
 description: "Industrial Engineering | Data Analytics | Product Development"
 author: "Ido Hasoy"
@@ -19,11 +19,11 @@ plugins:
 # Navigation
 nav:
   - title: "Home"
-    url: /
+    url: /#home
   - title: "Projects"
-    url: /projects/
+    url: /#projects
   - title: "Contact"
-    url: /contact/
+    url: /#contact
 
 # Social Links
 social:
