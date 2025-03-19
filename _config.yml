@@ -3,6 +3,9 @@
 title: "Ido Hasoy | Portfolio"
 header: true
 minimal_mistakes_skin: "dark" # Choose a skin if needed
+# Disable skip links
+include_skip_links: false
+
 description: "Industrial Engineering | Data Analytics | Product Development"
 author: "Ido Hasoy"
 baseurl: "" # Keep empty if using a custom domain
