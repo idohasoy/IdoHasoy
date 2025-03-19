@@ -1,14 +1,21 @@
 # Site Settings
+
 title: "Ido Hasoy | Portfolio"
 header: true
-minimal_mistakes_skin: default
+minimal_mistakes_skin: "dark" # Choose a skin if needed
 description: "Industrial Engineering | Data Analytics | Product Development"
 author: "Ido Hasoy"
-baseurl: "/IdoHasoy"
-url: "https://idohasoy.github.io"
+baseurl: "" # Keep empty if using a custom domain
+url: "https://idohasoy.github.io" # Adjust if using a custom domain
 
 # Use Minimal Mistakes Theme
 remote_theme: mmistakes/minimal-mistakes
+
+# Plugins
+plugins:
+  - jekyll-include-cache
+  - jekyll-feed
+  - jekyll-seo-tag
 
 # Navigation
 nav:
@@ -16,6 +23,8 @@ nav:
     url: /#home
   - title: "Projects"
     url: /#projects
+  - title: "About"
+    url: /#about
   - title: "Contact"
     url: /#contact
 
@@ -28,3 +37,5 @@ social:
 # Build Settings
 exclude:
   - README.md
+  - node_modules
+  - vendor
