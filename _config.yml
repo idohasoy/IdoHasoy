@@ -10,12 +10,6 @@ url: "https://idohasoy.github.io"
 # Use Minimal Mistakes Theme
 remote_theme: mmistakes/minimal-mistakes
 
-# Plugins
-plugins:
-  - jekyll-include-cache
-  - jekyll-feed
-  - jekyll-seo-tag
-
 # Navigation
 nav:
   - title: "Home"
