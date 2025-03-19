@@ -174,12 +174,34 @@ body {
 }
 
 .project-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensures elements are evenly spaced */
+    align-items: center; /* Centers content */
     background: white;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     width: 300px;
-    text-align: left;
+    text-align: center; /* Centers text */
+    min-height: 250px; /* Ensures all cards are equal height */
+}
+
+.project-card h3 {
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    flex-grow: 1; /* Pushes button to the bottom */
+    text-align: center;
+}
+
+.project-card .btn {
+    width: 100%; /* Ensures all buttons have the same width */
+    text-align: center;
+    margin-top: auto; /* Pushes the button to the bottom */
+    display: flex;
+    justify-content: center;
 }
 
 /* Responsive Projects */
@@ -241,7 +263,6 @@ body {
 /* Buttons */
 .btn {
     display: inline-block;
-    margin-top: 20px;
     padding: 12px 25px;
     background: #00bfa5;
     color: white;
@@ -255,9 +276,5 @@ body {
 .btn:hover {
     background-color: #00897b;
     transform: scale(1.05);
-}
-
-.skip-link {
-    display: none !important;
 }
 
