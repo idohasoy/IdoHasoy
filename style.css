@@ -257,4 +257,7 @@ body {
     transform: scale(1.05);
 }
 
+.skip-link {
+    display: none !important;
+}
 
