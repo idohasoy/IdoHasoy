@@ -47,7 +47,7 @@
             <div class="project-card">
                 <h3>Decision Tree Classifier</h3>
                 <p>A Python-based decision tree classifier with custom data preprocessing, entropy-based feature selection, and chi-squared pruning.</p>
-                <a class="btn" href="Decision Tree Classifier.zip" download>Download Project</a>
+                <a class="btn" href="Decision_Tree_Classifier.zip" download>Download Project</a>
             </div>
 
             <div class="project-card">
