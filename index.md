@@ -21,7 +21,7 @@
     <div class="hero-content">
         <h1>Welcome to My Portfolio</h1>
         <p>I’m <strong>Ido Hasoy</strong>, an Industrial Engineering and Management student specializing in intelligent systems, data analytics, and product development.</p>
-        <a href="Projects and files/ido hasoy resume.pdf" class="btn" download>📄 Download Resume</a>
+        <a href="ido hasoy resume.pdf" class="btn" download>📄 Download Resume</a>
     </div>
     <div class="hero-image">
         <!-- <img src="Images/logo.webp" class="cartoon-image" alt="Data Analytics Cartoon"> -->
@@ -47,19 +47,19 @@
             <div class="project-card">
                 <h3>Decision Tree Classifier</h3>
                 <p>A Python-based decision tree classifier with custom data preprocessing, entropy-based feature selection, and chi-squared pruning.</p>
-                <a class="btn" href="Projects and files/IntelligentsystemsEX3.zip" download>Download Project</a>
+                <a class="btn" href="IntelligentsystemsEX3.zip" download>Download Project</a>
             </div>
 
             <div class="project-card">
                 <h3>Word Transformation Search Algorithms</h3>
                 <p>Using A-Star, Hill Climbing, Simulated Annealing, Local Beam Search, and Genetic Algorithm, to optimize word transformations.</p>
-                <a class="btn" href="Projects and files/Intelligent_systems_EX1.zip" download>Download Project</a>
+                <a class="btn" href="Intelligent_systems_EX1.zip" download>Download Project</a>
             </div>
 
             <div class="project-card">
                 <h3>Company Performance & Operations Report</h3>
                 <p>A Power BI-based analytics project with SQL data processing.</p>
-                <a class="btn" href="Projects and files/17 (1).zip" download>Download Project</a>
+                <a class="btn" href="17 (1).zip" download>Download Project</a>
             </div>
         </div>
     </div>
