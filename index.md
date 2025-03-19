@@ -1,9 +1,10 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ido Hasoy | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!-- Header Section -->
@@ -32,7 +33,7 @@
         <h2>👨‍💼 About Me</h2>
         <div class="about-content">
             <p>I'm <strong>Ido Hasoy</strong>, an Industrial Engineering and Management student at Ben-Gurion University, specializing in intelligent systems.</p>
-            <p>Passionate about <strong>data analytics, product development, and process optimization</strong>. I have hands-on experience with <strong>SQL, Power BI, and Python</strong>, and a leadership background as a former combat officer.</p>
+            <p>Passionate about <strong>data analytics, product development, and process optimization</strong>. I have hands-on experience with <strong>SQL, Java, Power BI, Python, Excel include VB</strong>, and a leadership background as a former combat officer.</p>
         </div>
     </div>
 </section>
@@ -51,7 +52,7 @@
 
             <div class="project-card">
                 <h3>Word Transformation Search Algorithms</h3>
-                <p>Implemented multiple search algorithms to find optimal word transformations.</p>
+                <p>Using A-Star, Hill Climbing, Simulated Annealing, Local Beam Search, and Genetic Algorithm, to optimize word transformations.</p>
                 <a class="btn" href="Projects and files/Intelligent_systems_EX1.zip" download>Download Project</a>
             </div>
 
