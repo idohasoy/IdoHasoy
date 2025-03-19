@@ -1,7 +1,7 @@
 # Site Settings
 
 title: "Ido Hasoy | Portfolio"
-header: false
+header: true
 minimal_mistakes_skin: "dark" # Choose a skin if needed
 # Disable skip links
 include_skip_links: false
@@ -12,7 +12,7 @@ baseurl: "" # Keep empty if using a custom domain
 url: "https://idohasoy.github.io" # Adjust if using a custom domain
 
 # Use Minimal Mistakes Theme
-remote_theme: mmistakes/minimal-mistakes
+remote_theme: daattali/beautiful-jekyll
 
 # Plugins
 plugins:
