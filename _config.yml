@@ -13,6 +13,21 @@ url: "https://idohasoy.github.io" # Adjust if using a custom domain
 # Use Beautiful Jekyll Theme
 remote_theme: daattali/beautiful-jekyll
 
+# Force Full-Width Layout
+layout: single
+classes: wide
+
+# Apply Layout to All Pages
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "single"
+      classes: "wide"
+
+# Disable Sidebar
+sidebar: false
+
 # Plugins
 plugins:
   - jekyll-include-cache
